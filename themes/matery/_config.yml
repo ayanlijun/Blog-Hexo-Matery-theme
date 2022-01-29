@@ -260,22 +260,22 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: tangg555
-  repo: tangg555.github.io
+  owner: ayanlijun
+  repo: ayanlijun.github.io
   oauth:
-    clientId: 
-    clientSecret: 
-  admin: ['tangg555']
+    clientId: 5755f9f2230551acc7fc
+    clientSecret: c47962fe3d673f47143685d9b8b7ccaf11c58490
+  admin: ['ayanlijun']
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
 gitment:
   enable: false
-  owner:
-  repo:
+  owner: ayanlijun
+  repo: ayanlijun.github.io
   oauth:
-    clientId:
-    clientSecret:
+    clientId: 5755f9f2230551acc7fc
+    clientSecret: c47962fe3d673f47143685d9b8b7ccaf11c58490
 
 # disqus config, default disabled
 # Disqus评论模块的配置，默认为不激活
@@ -544,3 +544,21 @@ snow:
 # 天气插件
 weather:
   enable: true
+
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-nipsilon
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: false
